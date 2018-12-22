@@ -44,7 +44,7 @@
 <html lang="pl">
 <head>
 <meta charset="utf-8">
-<title>Moje książki</title>
+<title>Moje Filmy</title>
 <link href="index.css" rel="stylesheet">
 <link async href="http://fonts.googleapis.com/css?family=Warnes" data-generated="http://enjoycss.com" rel="stylesheet" type="text/css"/>
 <script src="jquery-1.12.4.min.js"></script>
