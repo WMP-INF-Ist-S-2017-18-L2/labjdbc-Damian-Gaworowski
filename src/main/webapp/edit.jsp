@@ -23,7 +23,7 @@
 <html lang="pl">
     <head>
         <meta charset="utf-8">
-        <title>Dodaj Film</title>
+        <title>Dodaj Filmm</title>
         
         <script src="jquery-1.12.4.min.js"></script>
         <script>
