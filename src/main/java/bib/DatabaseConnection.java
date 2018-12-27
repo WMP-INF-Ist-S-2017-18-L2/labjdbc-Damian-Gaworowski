@@ -11,7 +11,7 @@ public class DatabaseConnection {
         try {
 
             Class.forName("com.mysql.jdbc.Driver");
-            con = DriverManager.getConnection("jdbc:mysql://localhost:3306/biblioteka?useSSL=false", "biblioteka", "biblioteka");
+            con = DriverManager.getConnection("jdbc:mysql://sql.serwer1812588.home.pl:3306/29537652_biblioteka", "29537652_biblioteka", "Damianded0!");
             return con;
 
         } catch (Exception e) {
