@@ -126,38 +126,38 @@ function ValidateForm1()
          return false;
       }
    }
-   var strony = document.getElementById('minuty');
-   if (!(strony.disabled || strony.style.display === 'none' || strony.style.visibility === 'hidden'))
+   var minuty = document.getElementById('minuty');
+   if (!(minuty.disabled || minuty.style.display === 'none' || minuty.style.visibility === 'hidden'))
    {
       regexp = /^[-+]?\d*\.?\d*$/;
-      if (!regexp.test(strony.value))
+      if (!regexp.test(minuty.value))
       {
          alert("Niepoprawna liczba minut");
-         strony.focus();
+         minuty.focus();
          return false;
       }
-      if (strony.value == "")
+      if (minuty.value == "")
       {
          alert("Niepoprawna liczba minut");
-         strony.focus();
+         minuty.focus();
          return false;
       }
-      if (strony.value.length < 1)
+      if (minuty.value.length < 1)
       {
          alert("Niepoprawna liczba minut");
-         strony.focus();
+         minuty.focus();
          return false;
       }
-      if (strony.value.length > 4)
+      if (minuty.value.length > 4)
       {
          alert("Niepoprawna liczba minut");
-         strony.focus();
+         minuty.focus();
          return false;
       }
-      if (strony.value != "" && !(strony.value > 0 && strony.value < 10000))
+      if (minuty.value != "" && !(minuty.value > 0 && minuty.value < 10000))
       {
          alert("Niepoprawna liczba minut");
-         strony.focus();
+         minuty.focus();
          return false;
       }
    }

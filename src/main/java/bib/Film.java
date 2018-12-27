@@ -100,10 +100,10 @@ public class Film {
         try {
             Statement stmt = session.createStatement();
 
-            int success = stmt.executeUpdate("UPDATE ksiazki SET tytul = '" + tytul
+            int success = stmt.executeUpdate("UPDATE filmy SET tytul = '" + tytul
                     + "', autor = '" + autor
                     + "', rok_wydania = '" + rok_wydania
-                    + "', strony = '" + minuty
+                    + "', minuty = '" + minuty
                     + "', obejrzane = '" + obejrzane
                     + "', gatunek = '" + gatunek
                     + "', okladka = '" + okladka
