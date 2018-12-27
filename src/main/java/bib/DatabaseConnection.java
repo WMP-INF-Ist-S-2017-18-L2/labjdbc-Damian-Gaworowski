@@ -11,7 +11,7 @@ public class DatabaseConnection {
         try {
 
             Class.forName("com.mysql.jdbc.Driver");
-            con = DriverManager.getConnection("jdbc:mysql://sql.serwer1812588.home.pl:3306/29537652_biblioteka", "29537652_biblioteka", "Damianded0!");
+            con = DriverManager.getConnection("jdbc:mysql://node60184-env-1413262.unicloud.pl:3306/biblioteka", "root", "4iTwGYccD4");
             return con;
 
         } catch (Exception e) {
