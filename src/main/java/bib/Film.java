@@ -77,7 +77,7 @@ public class Film {
 
             int success = stmt.executeUpdate("INSERT INTO filmy (tytul,autor,rok_wydania,sminuty,gatunek,obejrzane, okladka, uzytkownik) VALUES ('" + tytul
                     + "', '" + autor
-                    + "', '" + rok
+                    + "', '" + rok_wydania
                     + "', '" + minuty
                     + "', '" + gatunek
                     + "', '" + obejrzane

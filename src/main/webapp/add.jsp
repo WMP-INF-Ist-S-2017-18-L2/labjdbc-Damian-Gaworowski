@@ -268,12 +268,12 @@ $(document).ready(function()
                 Film film = new Film(0);
                 String tytul = request.getParameter("tytul");
                 String autor = request.getParameter("autor");
-                String rok = request.getParameter("rok");
+                String rok_wydania = request.getParameter("rok_wydania");
                 String minuty = request.getParameter("minuty");
                 String obejrzane = request.getParameter("obejrzane");
                 String gatunek = request.getParameter("gatunek");
                 String okladka = request.getParameter("okladka");
-                int checkNewFilm = film.addFilm(tytul, autor, rok, minuty, obejrzane, gatunek, okladka, uzytkownik);
+                int checkNewFilm = film.addFilm(tytul, autor, rok_wydania, minuty, obejrzane, gatunek, okladka, uzytkownik);
                 if (checkNewFilm == 1) {
                     out.print("<script> window.location = './index.jsp'; </script>");
                     return;
