@@ -35,7 +35,7 @@ function ValidateForm1()
    {
       if (gatunek.selectedIndex < 0)
       {
-         alert("Please select one of the \"gatunek\" options.");
+         alert("wybierz gatunek");
          gatunek.focus();
          return false;
       }
@@ -45,19 +45,19 @@ function ValidateForm1()
    {
       if (tytul.value == "")
       {
-         alert("Niepoprawny tytuł książki");
+         alert("Zły tytuł filmu");
          tytul.focus();
          return false;
       }
       if (tytul.value.length < 1)
       {
-         alert("Niepoprawny tytuł książki");
+         alert("zły tytuł");
          tytul.focus();
          return false;
       }
       if (tytul.value.length > 100)
       {
-         alert("Niepoprawny tytuł książki");
+         alert("zły tytuł");
          tytul.focus();
          return false;
       }
