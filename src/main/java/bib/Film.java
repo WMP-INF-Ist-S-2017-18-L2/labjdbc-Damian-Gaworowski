@@ -75,7 +75,7 @@ public class Film {
         try {
             Statement stmt = session.createStatement();
 
-            int success = stmt.executeUpdate("INSERT INTO filmy (tytul,autor,rok_wydania,sminuty,gatunek,obejrzane, okladka, uzytkownik) VALUES ('" + tytul
+            int success = stmt.executeUpdate("INSERT INTO filmy (tytul,autor,rok_wydania,minuty,gatunek,obejrzane, okladka, uzytkownik) VALUES ('" + tytul
                     + "', '" + autor
                     + "', '" + rok_wydania
                     + "', '" + minuty
