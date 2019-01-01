@@ -35,7 +35,7 @@ function ValidateForm1()
    {
       if (gatunek.selectedIndex < 0)
       {
-         alert("wybierz gatunek");
+         alert("Please select one of the \"gatunek\" options.");
          gatunek.focus();
          return false;
       }
@@ -45,19 +45,19 @@ function ValidateForm1()
    {
       if (tytul.value == "")
       {
-         alert("Zły tytuł filmu");
+         alert("Niepoprawny tytuł filmu");
          tytul.focus();
          return false;
       }
       if (tytul.value.length < 1)
       {
-         alert("zły tytuł");
+         alert("Niepoprawny tytuł filmu");
          tytul.focus();
          return false;
       }
       if (tytul.value.length > 100)
       {
-         alert("zły tytuł");
+         alert("Niepoprawny tytuł filmu");
          tytul.focus();
          return false;
       }
@@ -342,9 +342,7 @@ $(document).ready(function()
                         <li>
                             <a href="./index.jsp" class="button ui-state-default">Moje filmy</a>
                         </li>
-                        <li>
-                            <a href="./add.jsp" class="button ui-state-default">Dodaj filmy</a>
-                        </li>
+                      
                         <li>
                             <a href="./register.jsp" class="button ui-state-default">Rejestracja</a>
                         </li>
