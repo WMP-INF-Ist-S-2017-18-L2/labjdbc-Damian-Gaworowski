@@ -69,7 +69,7 @@ public class Film {
 
     }
 
-    public int addFilm(String tytul, String autor, String rok, String minuty, String obejrzane, String gatunek, String okladka, String uzytkownik) {
+    public int addFilm(String tytul, String autor, String rok, String minuty, String obejrzane, String gatunek, String okladka) {
 
         Connection session = DBconnection.connectDatabase();
         try {
