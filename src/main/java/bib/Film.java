@@ -69,7 +69,7 @@ public class Film {
 
     }
 
-    public int addFilm(String tytul, String autor, String rok, String minuty, String obejrzane, String gatunek, String okladka) {
+    public int addFilm(String tytul, String autor, String rok_wydania, String minuty, String obejrzane, String gatunek, String okladka) {
 
         Connection session = DBconnection.connectDatabase();
         try {
@@ -77,7 +77,7 @@ public class Film {
 
             int success = stmt.executeUpdate("INSERT INTO filmy (tytul,autor,rok_wydania,minuty,gatunek,obejrzane, okladka, uzytkownik) VALUES ('" + tytul
                     + "', '" + autor
-                    + "', '" + rok
+                    + "', '" + rok_wydania
                     + "', '" + minuty
                     + "', '" + gatunek
                     + "', '" + obejrzane
