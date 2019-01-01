@@ -43,10 +43,12 @@
 <!doctype html>
 <html lang="pl">
 <head>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
 <meta charset="utf-8">
 <title>Moje Filmy</title>
 <link href="index.css" rel="stylesheet">
 <link async href="http://fonts.googleapis.com/css?family=Warnes" data-generated="http://enjoycss.com" rel="stylesheet" type="text/css"/>
+<link async href="http://fonts.googleapis.com/css?family=Atomic%20Age" data-generated="http://enjoycss.com" rel="stylesheet" type="text/css"/>
 <script src="jquery-1.12.4.min.js"></script>
 <script>
 function ValidateForm1()
@@ -140,12 +142,13 @@ $(document).ready(function()
    $('#MegaMenu2 li .submenu').hide();
 });
 </script>
+  <script type="text/javascript" script-name="bangers" src="http://use.edgefonts.net/bangers.js"></script>
 </head>
 <body>
 <div id="container">
 <div id="Layer1" style="position:absolute;text-align:center;left:619px;top:145px;width:375px;height:445px;z-index:28;">
 <div id="Layer1_Container" style="width:375px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
-<div id="wb_Form1" style="background-color: #000000;position:absolute;left:85px;top:35px;width:390px;height:376px;z-index:12;">
+<div id="wb_Form1" style="background-color: #000000;position:absolute;left:80px;top:30px;width:390px;height:376px;z-index:12;">
 <form name="Form1" method="post" action="./index.jsp" id="Form1" onsubmit="return ValidateForm1()">
 <input type="submit" id="Button1" name="" value="Zatwierdź" style="position:absolute;left:39px;top:295px;width:280px;height:50px;z-index:3;">
 <input type="text" id="tytul" style="position:absolute;left:100px;top:15px;width:240px;height:25px;line-height:25px;z-index:4;" name="tytul" value="" spellcheck="false">
@@ -169,6 +172,7 @@ $(document).ready(function()
 <input type="radio" id="RadioButton2" name="obejrzane" value="Tak" style="position:absolute;left:0;top:0;"><label for="RadioButton2"></label></div>
 </form>
 </div>
+   
 <div id="wb_Text3" style="position:absolute;left:125px;top:0px;width:250px;height:23px;text-align:right;z-index:13;">
 <span style="color:#ff4500;font-family:'Trebuchet MS';font-size:17px;"><strong>Filtrowanie biblioteki:</strong></span></div>
 <div id="wb_Text4" style="position:absolute;left:120px;top:67px;width:64px;height:20px;text-align:right;z-index:14;">
@@ -180,11 +184,12 @@ $(document).ready(function()
 <div id="wb_Text8" style="position:absolute;left:70px;top:241px;width:111px;height:20px;text-align:right;z-index:17;">
 <span style="color:#f8f8ff;font-family:'Trebuchet MS';font-size:15px;"><strong>Gatunek:</strong></span></div>
 <div id="wb_Text14" style="position:absolute;left:70px;top:292px;width:111px;height:20px;text-align:right;z-index:18;">
-<span style="color:#f8f8ff;font-family:'Trebuchet MS';font-size:15px;"><strong>Obejrzana:</strong></span></div>
+<span style="color:#f8f8ff;font-family:'Trebuchet MS';font-size:15px;"><strong>Obejrzany:</strong></span></div>
 <div id="wb_Text14" style="position:absolute;left:124px;top:286px;width:111px;height:20px;text-align:right;z-index:18;">
 <span style="color:#f8f8ff;font-family:'Trebuchet MS';font-size:15px;"><strong>tak</strong></span></div>
 <div id="wb_Text14" style="position:absolute;left:201px;top:286px;width:111px;height:20px;text-align:right;z-index:18;">
 <span style="color:#f8f8ff;font-family:'Trebuchet MS';font-size:15px;"><strong>nie </strong></span></div>
+
 </div>
 </div>
 <div id="wb_Text2" style="position:absolute;left:0px;top:145px;width:250px;height:23px;z-index:29;">
@@ -192,12 +197,11 @@ $(document).ready(function()
 <%=wynik%>
 
 </div>
-<div id="PageHeader1" style="position:absolute;text-align:center;left:0px;top:0px;width:100%;height:88px;z-index:7777;">
+<div id="PageHeader1" style="position:absolute;text-align:center;left:0px;top:78px;width:100%;height:88px;z-index:7777;">
 <div id="PageHeader1_Container" style="width:994px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
 <div id="wb_Image1" style="position:absolute;left:0px;top:21px;width:48px;height:48px;z-index:0;">
 <a href="./index.jsp"><img src="images/icons8-taśma-filmowa-96.png" id="Image1" alt=""></a></div>
-<div id="wb_Text1" style="position:absolute;left:68px;top:34px;width:265px;height:23px;z-index:1;">
-<span style="color:#FFFFFF;font-family:'Vast Shadow';font-size:17px;line-height:23px;"><strong>Domowa biblioteka filmowa online</strong></span></div>
+<div id="wb_Text1" style="position:absolute;left:68px;top:16px;width:269px;height:56px;z-index:1;">Domowa biblioteka filmowa online</div>
 <div id="wb_MegaMenu2" style="position:absolute;left:467px;top:17px;width:558px;height:53px;z-index:2;">
    <ul class="ui-widget" id="MegaMenu2">
       <li>
@@ -218,3 +222,6 @@ $(document).ready(function()
 </div>
 </body>
 </html>
+
+
+
