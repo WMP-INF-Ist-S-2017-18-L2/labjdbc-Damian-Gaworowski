@@ -69,21 +69,21 @@ public class Film {
 
     }
 
-    public int addFilm(String tytul, String autor, String rok_wydania, String minuty, String obejrzane, String gatunek, String okladka)  {
+    public int addFilmo(String tytul, String autor, String rok, String minuty, String obejrzane, String gatunek, String okladka, String uzytkownik) {
 
         Connection session = DBconnection.connectDatabase();
         try {
             Statement stmt = session.createStatement();
 
-            int success = stmt.executeUpdate("INSERT INTO filmy VALUES ('" + tytul
-                    + "', autor = '" + autor
-                    + "', rok_wydania = '" + rok_wydania
-                    + "', minuty = '" + minuty
-                    + "', obejrzane = '" + obejrzane
-                    + "', gatunek = '" + gatunek
-                    + "', okladka = '" + okladka
-                    + "', uzytkownik = '" + uzytkownik
-                    + "' WHERE id ='" + id + "';");
+            int success = stmt.executeUpdate("INSERT INTO filmy (tytul,autor,rok_wydania,minuty,gatunek,obejrzane, okladka, uzytkownik) VALUES ('" + tytul
+                    + "', '" + autor
+                    + "', '" + rok
+                    + "', '" + minuty
+                    + "', '" + gatunek
+                    + "', '" + obejrzane
+                    + "', '" + okladka
+                    + "', '" + uzytkownik
+                    + "');");
             if (success == 1) {
                 return 1;
             } else {
@@ -94,6 +94,7 @@ public class Film {
             return 0;
         }
 
+}
     }
 
     public int editFilm(String tytul, String autor, String rok_wydania, String minuty, String obejrzane, String gatunek, String okladka) {
