@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package bib;
 
 /**
@@ -13,7 +8,7 @@ import java.sql.*;
 
 public class Film {
 
-    private DatabaseConnection DBconnection = new DatabaseConnection();
+    public DatabaseConnection DBconnection = new DatabaseConnection();
     Connection session = DBconnection.connectDatabase();
     String tytul = "";
     String autor = "";
@@ -91,10 +86,11 @@ public class Film {
             }
 
         } catch (Exception e) {
+            e.printStackTrace();
+            System.out.println(e.getMessage());
             return 0;
         }
 
-}
     }
 
     public int editFilm(String tytul, String autor, String rok_wydania, String minuty, String obejrzane, String gatunek, String okladka) {

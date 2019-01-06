@@ -394,6 +394,10 @@ transform-origin: 50% 50% 0;
 {
    text-align: right;
 }
+#wb_image4 div
+{
+   border: 7px double rgba(173,6,6,1);
+}
 #wb_Text5 
 {
    background-color: transparent;

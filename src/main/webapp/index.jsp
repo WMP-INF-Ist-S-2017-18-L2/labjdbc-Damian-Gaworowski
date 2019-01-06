@@ -1,6 +1,6 @@
 <%-- 
     Document   : index
-    Created on : 2018-04-20, 18:18:23
+    Created on : 2018-11-20, 18:18:23
     Author     : HP
 --%>
 
@@ -193,7 +193,7 @@ $(document).ready(function()
 </div>
 </div>
 <div id="wb_Text2" style="position:absolute;left:0px;top:145px;width:250px;height:23px;z-index:29;">
-<span style="color:#008BB9;font-family:'Trebuchet MS';font-size:17px;"><strong>Twoje filmy:</strong></span></div>
+<span style="color:#ff4406;font-family:'Trebuchet MS';font-size:17px;"><strong>Twoje filmy:</strong></span></div>
 <%=wynik%>
 
 </div>
@@ -216,6 +216,7 @@ $(document).ready(function()
       <li>
       <a href="<%=link_adres%>" class="button ui-state-default"><%=link_tekst%></a>
       </li>
+      
    </ul>
 </div>
 </div>

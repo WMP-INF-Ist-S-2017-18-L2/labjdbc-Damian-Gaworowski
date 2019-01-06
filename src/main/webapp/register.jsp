@@ -17,7 +17,9 @@
 <head>
 <meta charset="utf-8">
 <title>Rejestracja</title>
-
+<link href="index.css" rel="stylesheet">
+<link async href="http://fonts.googleapis.com/css?family=Warnes" data-generated="http://enjoycss.com" rel="stylesheet" type="text/css"/>
+<link async href="http://fonts.googleapis.com/css?family=Atomic%20Age" data-generated="http://enjoycss.com" rel="stylesheet" type="text/css"/>
 <script src="jquery-1.12.4.min.js"></script>
 <script>
 function ValidateForm1()
@@ -131,20 +133,20 @@ function ValidateForm1()
 %>   
     <div id="container">
 <div id="Layer1" style="position:absolute;text-align:left;left:166px;top:109px;width:507px;height:368px;z-index:19;">
-<div id="wb_Text3" style="position:absolute;left:180px;top:36px;width:250px;height:23px;z-index:10;">
+<div id="wb_Text3" style="position:absolute;left:80px;top:36px;width:250px;height:23px;z-index:10;">
 <span style="color:#008BB9;font-family:'Trebuchet MS';font-size:17px;"><strong>Rejestracja:</strong></span></div>
 <div id="wb_Form1" style="position:absolute;left:13px;top:82px;width:470px;height:266px;z-index:11;">
 <form name="Form1" method="post" action="./register.jsp" id="Form1" onsubmit="return ValidateForm1()">
 <input type="hidden" name="formname" value="add" id="formname">
-<input type="submit" id="Button1" name="" value="Zatwierdź" style="position:absolute;left:167px;top:188px;width:303px;height:40px;z-index:3;">
-<input type="text" id="login" style="position:absolute;left:167px;top:14px;width:293px;height:25px;line-height:25px;z-index:4;" name="login" value="" maxlength="100" spellcheck="false">
-<input type="password" id="haslo" style="position:absolute;left:167px;top:72px;width:293px;height:25px;line-height:25px;z-index:5;" name="haslo" value="" maxlength="100" autocomplete="off" spellcheck="false">
-<div id="wb_Text4" style="position:absolute;left:84px;top:23px;width:64px;height:20px;text-align:right;z-index:6;">
+<input type="submit" id="Button1" name="" value="Zatwierdź" style="position:absolute;left:122px;top:188px;width:303px;height:40px;z-index:3;">
+<input type="text" id="login" style="position:absolute;left:125px;top:14px;width:293px;height:25px;line-height:25px;z-index:4;" name="login" value="" maxlength="100" spellcheck="false">
+<input type="password" id="haslo" style="position:absolute;left:125px;top:72px;width:293px;height:25px;line-height:25px;z-index:5;" name="haslo" value="" maxlength="100" autocomplete="off" spellcheck="false">
+<div id="wb_Text4" style="position:absolute;left:24px;top:23px;width:64px;height:20px;text-align:right;z-index:6;">
 <span style="color:#646464;font-family:'Trebuchet MS';font-size:15px;"><strong>Login:</strong></span></div>
-<div id="wb_Text5" style="position:absolute;left:84px;top:81px;width:64px;height:20px;text-align:right;z-index:7;">
+<div id="wb_Text5" style="position:absolute;left:24px;top:81px;width:64px;height:20px;text-align:right;z-index:7;">
 <span style="color:#646464;font-family:'Trebuchet MS';font-size:15px;"><strong>Hasło:</strong></span></div>
-<input type="password" id="haslo2" style="position:absolute;left:167px;top:130px;width:293px;height:25px;line-height:25px;z-index:8;" name="haslo2" value="" maxlength="100" autocomplete="off" spellcheck="false">
-<div id="wb_Text2" style="position:absolute;left:29px;top:139px;width:119px;height:20px;text-align:right;z-index:9;">
+<input type="password" id="haslo2" style="position:absolute;left:125px;top:130px;width:293px;height:25px;line-height:25px;z-index:8;" name="haslo2" value="" maxlength="100" autocomplete="off" spellcheck="false">
+<div id="wb_Text2" style="position:absolute;left:0px;top:139px;width:119px;height:20px;text-align:right;z-index:9;">
 <span style="color:#646464;font-family:'Trebuchet MS';font-size:15px;"><strong>Powtórz hasło:</strong></span></div>
 </form>
 </div>
@@ -163,11 +165,7 @@ function ValidateForm1()
       <li>
       <a href="./add.jsp" class="button ui-state-default">Dodaj film</a>
       </li>
-      <li>
-      <a href="./register.jsp" class="button ui-state-default">Rejestracja</a>
-      </li>
-      <li>
-      <a href="<%=link_adres%>" class="button ui-state-default"><%=link_tekst%></a>
+      
       </li>
    </ul>
 </div>
