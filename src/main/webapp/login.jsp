@@ -3,9 +3,10 @@
     Created on : 2018-04-22, 12:11:13
     Author     : HP
 --%>
-<%@page import="bib.*"%> 
 
 
+
+<%@page import="bib.Login"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!doctype html>
 <html lang="pl">
@@ -61,7 +62,8 @@ function ValidateForm1()
          return false;
       }
       if (haslo.value.length < 8)
-      {
+      {)");
+
          alert("Niepoprawne hasło (min. 8 znaków)");
          haslo.focus();
          return false;
@@ -115,7 +117,7 @@ function ValidateForm1()
 </div>
 
 </div>
-<div id="PageHeader1" style="position:absolute;text-align:center;left:0px;top:78px;width:100%;height:88px;z-index:7777;">
+<div id="PageHeader1" style="position:absolute;text-align:center;left:0px;top:0px;width:100%;height:88px;z-index:7777;">
 <div id="PageHeader1_Container" style="width:994px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
 <div id="wb_Image1" style="position:absolute;left:0px;top:21px;width:50px;height:48px;z-index:0;">
 <a href="./index.jsp"><img src="images/icons8-taśma-filmowa-96.png" id="Image1" alt=""></a></div>

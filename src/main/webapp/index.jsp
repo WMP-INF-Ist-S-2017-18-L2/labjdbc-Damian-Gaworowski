@@ -142,7 +142,7 @@ $(document).ready(function()
    $('#MegaMenu2 li .submenu').hide();
 });
 </script>
-  <script type="text/javascript" script-name="bangers" src="http://use.edgefonts.net/bangers.js"></script>
+  <link async href="http://fonts.googleapis.com/css?family=Monoton" data-generated="http://enjoycss.com" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 <div id="container">
@@ -197,7 +197,7 @@ $(document).ready(function()
 <%=wynik%>
 
 </div>
-<div id="PageHeader1" style="position:absolute;text-align:center;left:0px;top:78px;width:100%;height:88px;z-index:7777;">
+<div id="PageHeader1" style="position:absolute;text-align:center;left:0px;top:0px;width:100%;height:88px;z-index:7777;">
 <div id="PageHeader1_Container" style="width:994px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
 <div id="wb_Image1" style="position:absolute;left:0px;top:21px;width:48px;height:48px;z-index:0;">
 <a href="./index.jsp"><img src="images/icons8-taśma-filmowa-96.png" id="Image1" alt=""></a></div>

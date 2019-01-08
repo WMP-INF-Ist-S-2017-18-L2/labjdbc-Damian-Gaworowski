@@ -93,7 +93,7 @@ public class Film {
 
     }
 
-    public int editFilm(String tytul, String autor, String rok_wydania, String minuty, String obejrzane, String gatunek, String okladka) {
+    public int editFilm(String tytul, String autor, String rok_wydania, String minuty, String obejrzane, String gatunek, String okladka, String uzytkownik) {
         try {
             Statement stmt = session.createStatement();
 
@@ -110,6 +110,7 @@ public class Film {
             if (success == 1) {
                 return 1;
 
+            
             } else {
                 return 0;
             }
@@ -193,5 +194,8 @@ public class Film {
         return wynik;
 
     }
+
+ 
+    
 
 }
