@@ -18,8 +18,9 @@
 <meta charset="utf-8">
 <title>Rejestracja</title>
 <link href="index.css" rel="stylesheet">
-<link async href="http://fonts.googleapis.com/css?family=Warnes" data-generated="http://enjoycss.com" rel="stylesheet" type="text/css"/>
-<link async href="http://fonts.googleapis.com/css?family=Atomic%20Age" data-generated="http://enjoycss.com" rel="stylesheet" type="text/css"/>
+        <link async href="http://fonts.googleapis.com/css?family=Warnes" data-generated="http://enjoycss.com" rel="stylesheet" type="text/css"/>
+        <link async href="http://fonts.googleapis.com/css?family=Atomic%20Age" data-generated="http://enjoycss.com" rel="stylesheet" type="text/css"/>
+        <script type="text/javascript" script-name="bangers" src="http://use.edgefonts.net/bangers.js"></script>
 <script src="jquery-1.12.4.min.js"></script>
 <script>
 function ValidateForm1()
@@ -157,7 +158,7 @@ function ValidateForm1()
 <div id="wb_Image1" style="position:absolute;left:0px;top:21px;width:48px;height:48px;z-index:0;">
 <a href="./index.jsp"><img src="images/icons8-taśma-filmowa-96.png" id="Image1" alt=""></a></div>
 <div id="wb_Text1" style="position:absolute;left:68px;top:16px;width:269px;height:56px;z-index:1;">Domowa biblioteka filmowa online</div>
-<div id="wb_MegaMenu2" style="position:absolute;left:467px;top:17px;width:558px;height:53px;z-index:2;">
+<div id="wb_MegaMenu2" style="position:absolute;left:467px;top:17px;width:700px;height:53px;z-index:2;">
    <ul class="ui-widget" id="MegaMenu2">
       <li>
       <a href="./index.jsp" class="button ui-state-default ui-state-active">Moje filmy</a>

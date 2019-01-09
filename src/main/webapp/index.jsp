@@ -16,11 +16,11 @@
 
 <%
     String uzytkownik = "guest";
-    String link_tekst = "Zaloguj się";
+    String link_tekst = "Zaloguj sie";
     String link_adres = "./login.jsp";
     if ((session.getAttribute("username") != null)) {
         uzytkownik = session.getAttribute("username").toString();
-        link_tekst = "Wyloguj się";
+        link_tekst = "Wyloguj sie";
         link_adres = "./logout.jsp";
     }
 %>
@@ -193,7 +193,7 @@ $(document).ready(function()
 
 </div>
 </div>
-<div id="wb_Text2" style="position:absolute;left:0px;top:145px;width:250px;height:23px;z-index:29;">
+<div style="position:absolute;left:0px;top:145px;width:250px;height:23px;z-index:29;">
 <span style="color:#ff4406;font-family:'Trebuchet MS';font-size:17px;"><strong>Twoje filmy:</strong></span></div>
 <%=wynik%>
 
@@ -203,13 +203,13 @@ $(document).ready(function()
 <div id="wb_Image1" style="position:absolute;left:0px;top:21px;width:48px;height:48px;z-index:0;">
 <a href="./index.jsp"><img src="images/icons8-taśma-filmowa-96.png" id="Image1" alt=""></a></div>
 <div id="wb_Text1" style="position:absolute;left:68px;top:16px;width:269px;height:56px;z-index:1;">Domowa biblioteka filmowa online</div>
-<div id="wb_MegaMenu2" style="position:absolute;left:467px;top:17px;width:558px;height:53px;z-index:2;">
+<div id="wb_MegaMenu2" style="position:absolute;left:467px;top:17px;width:790px;height:53px;z-index:2;">
    <ul class="ui-widget" id="MegaMenu2">
       <li>
-      <a href="./index.jsp" class="button ui-state-default ui-state-active">Moje filmy</a>
+      <a href="./index.jsp" class="button ui-state-default ui-state-active">Moje     filmy</a>
       </li>
       <li>
-      <a href="./add.jsp" class="button ui-state-default">Dodaj film</a>
+      <a href="./add.jsp" class="button ui-state-default">Dodaj     film</a>
       </li>
       <li>
       <a href="./register.jsp" class="button ui-state-default">Rejestracja</a>
