@@ -10,13 +10,13 @@ public class DatabaseConnection {
 
         try {
 
-         //   Class.forName("com.mysql.jdbc.Driver");
-         //   con = DriverManager.getConnection("jdbc:mysql://node60184-env-1413262.unicloud.pl:3306/biblioteka", "root", "4iTwGYccD4");
-         //   return con;
-
             Class.forName("com.mysql.jdbc.Driver");
-            con = DriverManager.getConnection("jdbc:mysql://localhost:3306/biblioteka?useSSL=false", "biblioteka", "biblioteka");
+            con = DriverManager.getConnection("jdbc:mysql://node60184-env-1413262.unicloud.pl:3306/biblioteka", "root", "4iTwGYccD4");
             return con;
+
+          /*  Class.forName("com.mysql.jdbc.Driver");
+            con = DriverManager.getConnection("jdbc:mysql://localhost:3306/biblioteka?useSSL=false", "biblioteka", "biblioteka");
+            return con;*/
 
         } catch (Exception e) {
 

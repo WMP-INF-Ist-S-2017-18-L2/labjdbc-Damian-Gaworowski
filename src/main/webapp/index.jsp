@@ -175,11 +175,11 @@ $(document).ready(function()
 </div>
    
 <div id="wb_Text3" style="position:absolute;left:125px;top:0px;width:250px;height:23px;text-align:right;z-index:13;">
-<span style="color:#ff4500;font-family:'Trebuchet MS';font-size:17px;"><strong>Filtrowanie biblioteki:</strong></span></div>
+<span style="color:#ff4500;font-family:'Trebuchet MS';font-size:17px;"><strong>Wyszukiwarka filmu:</strong></span></div>
 <div id="wb_Text4" style="position:absolute;left:120px;top:67px;width:64px;height:20px;text-align:right;z-index:14;">
 <span style="color:#f8f8ff;font-family:'Trebuchet MS';font-size:15px;"><strong>Tytuł:</strong></span></div>
 <div id="wb_Text5" style="position:absolute;left:120px;top:128px;width:64px;height:20px;text-align:right;z-index:15;">
-<span style="color:#f8f8ff;font-family:'Trebuchet MS';font-size:15px;"><strong>Autor:</strong></span></div>
+<span style="color:#f8f8ff;font-family:'Trebuchet MS';font-size:15px;"><strong>Reżyser:</strong></span></div>
 <div id="wb_Text6" style="position:absolute;left:72px;top:184px;width:111px;height:20px;text-align:right;z-index:16;">
 <span style="color:#f8f8ff;font-family:'Trebuchet MS';font-size:15px;"><strong>Rok wydania:</strong></span></div>
 <div id="wb_Text8" style="position:absolute;left:70px;top:241px;width:111px;height:20px;text-align:right;z-index:17;">
