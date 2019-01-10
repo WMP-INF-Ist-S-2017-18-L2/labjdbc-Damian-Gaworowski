@@ -352,9 +352,9 @@
                         <input type="text" id="autor" style="position:absolute;left:161px;top:72px;width:293px;height:25px;line-height:25px;z-index:6;" name="autor" value="<%=autor%>" maxlength="100" spellcheck="false">
                         <input type="text" id="rok" style="position:absolute;left:161px;top:130px;width:293px;height:25px;line-height:25px;z-index:7;" name="rok" value="<%=rok_wydania%>" maxlength="4" spellcheck="false">
                         <div id="wb_Text10" style="position:absolute;left:435px;top:373px;width:29px;height:16px;text-align:right;z-index:8;">
-                            <span style="color:#000000;font-family:Arial;font-size:13px;">Nie</span></div>
+                            <span style="color:#f8f8ff;font-family:Arial;font-size:15px;">Nie</span></div>
                         <div id="wb_Text9" style="position:absolute;left:373px;top:373px;width:29px;height:16px;z-index:9;">
-                            <span style="color:#000000;font-family:Arial;font-size:13px;">Tak</span></div>
+                            <span style="color:#f8f8ff;font-family:Arial;font-size:15px;">Tak</span></div>
                         <input type="text" id="minuty" style="position:absolute;left:161px;top:188px;width:293px;height:25px;line-height:25px;z-index:10;" name="minuty" value="<%=liczba_minut%>" maxlength="4" spellcheck="false">
                         <div id="wb_Nie" style="position:absolute;left:415px;top:370px;width:20px;height:20px;z-index:11;">
                             <input type="radio" id="Nie" name="obejrzane" value="Nie" checked style="position:absolute;left:0;top:0;"><label for="Nie"></label></div>
@@ -386,7 +386,7 @@
 <div id="wb_Image1" style="position:absolute;left:0px;top:21px;width:48px;height:48px;z-index:0;">
 <a href="./index.jsp"><img src="images/icons8-taśma-filmowa-96.png" id="Image1" alt=""></a></div>
 <div id="wb_Text1" style="position:absolute;left:68px;top:16px;width:269px;height:56px;z-index:1;">Domowa biblioteka filmowa online</div>
-<div id="wb_MegaMenu2" style="position:absolute;left:467px;top:17px;width:700px;height:53px;z-index:2;">
+<div id="wb_MegaMenu2" style="position:absolute;left:390px;top:17px;width:890px;height:53px;z-index:2;">
    <ul class="ui-widget" id="MegaMenu2">
       <li>
       <a href="./index.jsp" class="button ui-state-default ui-state-active">Moje filmy</a>

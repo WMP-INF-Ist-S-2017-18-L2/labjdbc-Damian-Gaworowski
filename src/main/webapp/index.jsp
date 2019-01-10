@@ -164,11 +164,11 @@ $(document).ready(function()
 <option value="Biografia">Biografia</option>
 </select>
 <div id="wb_Text11" style="position:absolute;left:260px;top:252px;width:29px;height:16px;text-align:right;z-index:8;">
-<span style="color:#000000;font-family:Arial;font-size:13px;">Nie</span></div>
+<span style="color:#f8f8ff;font-family:Arial;font-size:15px;">Nie</span></div>
 <div id="wb_RadioButton1" style="position:absolute;left:240px;top:249px;width:20px;height:20px;z-index:9;">
 <input type="radio" id="RadioButton1" name="obejrzane" value="Nie" checked style="position:absolute;left:0;top:0;"><label for="RadioButton1"></label></div>
 <div id="wb_Text13" style="position:absolute;left:198px;top:252px;width:29px;height:16px;z-index:10;">
-<span style="color:#000000;font-family:Arial;font-size:13px;">Tak</span></div>
+<span style="color:#f8f8ff;font-family:Arial;font-size:15px;">Tak</span></div>
 <div id="wb_RadioButton2" style="position:absolute;left:170px;top:249px;width:20px;height:20px;z-index:11;">
 <input type="radio" id="RadioButton2" name="obejrzane" value="Tak" style="position:absolute;left:0;top:0;"><label for="RadioButton2"></label></div>
 </form>
@@ -186,10 +186,7 @@ $(document).ready(function()
 <span style="color:#f8f8ff;font-family:'Trebuchet MS';font-size:15px;"><strong>Gatunek:</strong></span></div>
 <div id="wb_Text14" style="position:absolute;left:70px;top:292px;width:111px;height:20px;text-align:right;z-index:18;">
 <span style="color:#f8f8ff;font-family:'Trebuchet MS';font-size:15px;"><strong>Obejrzany:</strong></span></div>
-<div id="wb_Text14" style="position:absolute;left:124px;top:286px;width:111px;height:20px;text-align:right;z-index:18;">
-<span style="color:#f8f8ff;font-family:'Trebuchet MS';font-size:15px;"><strong>tak</strong></span></div>
-<div id="wb_Text14" style="position:absolute;left:201px;top:286px;width:111px;height:20px;text-align:right;z-index:18;">
-<span style="color:#f8f8ff;font-family:'Trebuchet MS';font-size:15px;"><strong>nie </strong></span></div>
+
 
 </div>
 </div>
@@ -203,7 +200,7 @@ $(document).ready(function()
 <div id="wb_Image1" style="position:absolute;left:0px;top:21px;width:48px;height:48px;z-index:0;">
 <a href="./index.jsp"><img src="images/icons8-taśma-filmowa-96.png" id="Image1" alt=""></a></div>
 <div id="wb_Text1" style="position:absolute;left:68px;top:16px;width:269px;height:56px;z-index:1;">Domowa biblioteka filmowa online</div>
-<div id="wb_MegaMenu2" style="position:absolute;left:467px;top:17px;width:790px;height:53px;z-index:2;">
+<div id="wb_MegaMenu2" style="position:absolute;left:390px;top:17px;width:890px;height:53px;z-index:2;">
    <ul class="ui-widget" id="MegaMenu2">
       <li>
       <a href="./index.jsp" class="button ui-state-default ui-state-active">Moje     filmy</a>

@@ -267,7 +267,10 @@
     <body>
 
         <%
+           
+            
             if (request.getParameter("gatunek") != null) {
+                
                 Film film = new Film(0);
                 String tytul = request.getParameter("tytul");
                 String autor = request.getParameter("autor");
@@ -279,6 +282,7 @@
                 int checkNewFilm = film.addFilm(tytul, autor, rok_wydania, minuty, obejrzane, gatunek, okladka, uzytkownik);
                 if (checkNewFilm == 1) {
                     out.print("<script> window.location = './index.jsp'; </script>");
+                    
                     return;
                 } else {
                     out.print("<script> alert('Dodawanie filmu nie powiodło się, spróbuj jeszcze raz') </script>");
@@ -306,17 +310,17 @@
                         <input type="text" id="tytul" style="position:absolute;left:161px;top:14px;width:293px;height:25px;line-height:25px;z-index:5;" name="tytul" value="" maxlength="100" spellcheck="false">
                         <input type="text" id="autor" style="position:absolute;left:161px;top:72px;width:293px;height:25px;line-height:25px;z-index:6;" name="autor" value="" maxlength="100" spellcheck="false">
                         <input type="text" id="rok" style="position:absolute;left:161px;top:130px;width:293px;height:25px;line-height:25px;z-index:7;" name="rok" value="" maxlength="4" spellcheck="false">
-                        <div id="wb_Text10" style="position:absolute;left:435px;top:373px;width:29px;height:16px;text-align:right;z-index:8;">
-                            <span style="color:#000000;font-family:Arial;font-size:13px;">Nie</span></div>
+                       <div id="wb_Text10" style="position:absolute;left:435px;top:373px;width:29px;height:16px;text-align:right;z-index:8;">
+                            <span style="color:#f8f8ff;font-family:Arial;font-size:15px;">Nie</span></div>
                         <div id="wb_Text9" style="position:absolute;left:373px;top:373px;width:29px;height:16px;z-index:9;">
-                            <span style="color:#000000;font-family:Arial;font-size:13px;">Tak</span></div>
+                            <span style="color:#f8f8ff;font-family:Arial;font-size:15px;">Tak</span></div>
                         <input type="text" id="minuty" style="position:absolute;left:161px;top:188px;width:293px;height:25px;line-height:25px;z-index:10;" name="minuty" maxlength="4" spellcheck="false">
                         <div id="wb_RadioButton1" style="position:absolute;left:415px;top:370px;width:20px;height:20px;z-index:11;">
                             <input type="radio" id="RadioButton1" name="obejrzane" value="Nie" checked style="position:absolute;left:0;top:0;"><label for="RadioButton1"></label></div>
                         <div id="wb_RadioButton2" style="position:absolute;left:345px;top:370px;width:20px;height:20px;z-index:12;">
                             <input type="radio" id="RadioButton2" name="obejrzane" value="Tak" style="position:absolute;left:0;top:0;"><label for="RadioButton2"></label></div>
                         <div id="wb_Text7" style="position:absolute;left:89px;top:368px;width:111px;height:20px;text-align:right;z-index:13;">
-                            <span style="color:#646464;font-family:'Trebuchet MS';font-size:15px;"><strong>obejrzany:</strong></span></div>
+<span style="color:#646464;font-family:'Trebuchet MS';font-size:15px;"><strong>obejrzany:</strong></span></div>
                         <div id="wb_Text4" style="position:absolute;left:78px;top:23px;width:64px;height:20px;text-align:right;z-index:14;">
                             <span style="color:#646464;font-family:'Trebuchet MS';font-size:15px;"><strong>Tytuł:</strong></span></div>
                         <div id="wb_Text8" style="position:absolute;left:31px;top:311px;width:111px;height:20px;text-align:right;z-index:15;">
@@ -339,7 +343,7 @@
 <div id="wb_Image1" style="position:absolute;left:0px;top:21px;width:48px;height:48px;z-index:0;">
 <a href="./index.jsp"><img src="images/icons8-taśma-filmowa-96.png" id="Image1" alt=""></a></div>
 <div id="wb_Text1" style="position:absolute;left:68px;top:16px;width:269px;height:56px;z-index:1;">Domowa biblioteka filmowa online</div>
-<div id="wb_MegaMenu2" style="position:absolute;left:467px;top:17px;width:700px;height:53px;z-index:2;">
+<div id="wb_MegaMenu2" style="position:absolute;left:390px;top:17px;width:890px;height:53px;z-index:2;">
                     <ul class="ui-widget" id="MegaMenu2">
                         <li>
                             <a href="./index.jsp" class="button ui-state-default ui-state-active">Moje filmy</a>
