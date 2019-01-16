@@ -15,13 +15,13 @@ package bib;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Results {
+public class Wyniki {
 
     List<Integer> filmy = new ArrayList<Integer>();
     String results = "";
 
 
-    public Results(List<Integer> filmy) {
+    public Wyniki(List<Integer> filmy) {
         try {
 
             int i=0;

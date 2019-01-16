@@ -1,10 +1,8 @@
 <%-- 
-    Document   : register
-    Created on : 2018-04-22, 12:33:02
     Author     : HP
 --%>
 
-<%@page import="bib.NewAccount"%>
+<%@page import="bib.NoweKonto"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 
 
@@ -155,9 +153,9 @@ function ValidateForm1()
 </div>
   <div id="PageHeader1" style="position:absolute;text-align:center;left:0px;top:0px;width:100%;height:88px;z-index:7777;">
 <div id="PageHeader1_Container" style="width:994px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
-<div id="wb_Image1" style="position:absolute;left:0px;top:21px;width:48px;height:48px;z-index:0;">
+<div id="wb_Image1" style="position:absolute;left:0px;top:21px;width:48px;height:43px;z-index:0;">
 <a href="./index.jsp"><img src="images/icons8-taśma-filmowa-96.png" id="Image1" alt=""></a></div>
-<div id="wb_Text1" style="position:absolute;left:68px;top:16px;width:269px;height:56px;z-index:1;">Domowa biblioteka filmowa online</div>
+<div id="wb_Text1" style="position:absolute;left:68px;top:16px;width:191x;height:48px;z-index:1;">Filmoteka online</div>
 <div id="wb_MegaMenu2" style="position:absolute;left:390px;top:17px;width:890px;height:53px;z-index:2;">
    <ul class="ui-widget" id="MegaMenu2">
       <li>

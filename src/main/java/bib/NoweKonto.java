@@ -2,7 +2,7 @@ package bib;
 
 import java.sql.*;
 
-public class NewAccount {
+public class NoweKonto {
 
     private DatabaseConnection DBconnection = new DatabaseConnection();
 

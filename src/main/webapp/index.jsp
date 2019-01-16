@@ -35,7 +35,7 @@
     List<Integer> filmy = new ArrayList<Integer>();
     Filmy film_list = new Filmy(tytul, autor, rok, gatunek, obejrzane, uzytkownik);
     filmy = film_list.getFilmy();
-    Results results = new Results(filmy);
+    Wyniki results = new Wyniki(filmy);
     String wynik = results.getResults();
 %>
 
@@ -62,7 +62,7 @@ function ValidateForm1()
    {
       if (gatunek.selectedIndex < 0)
       {
-         alert("Please select one of the \"gatunek\" options.");
+         alert("Wybierz jakiś \"gatunek\" ");
          gatunek.focus();
          return false;
       }
@@ -199,7 +199,7 @@ $(document).ready(function()
 <div id="PageHeader1_Container" style="width:994px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
 <div id="wb_Image1" style="position:absolute;left:0px;top:21px;width:48px;height:48px;z-index:0;">
 <a href="./index.jsp"><img src="images/icons8-taśma-filmowa-96.png" id="Image1" alt=""></a></div>
-<div id="wb_Text1" style="position:absolute;left:68px;top:16px;width:269px;height:56px;z-index:1;">Domowa biblioteka filmowa online</div>
+<div id="wb_Text1" style="position:absolute;left:68px;top:16px;width:191px;height:43px;z-index:1;">Filmoteka online</div>
 <div id="wb_MegaMenu2" style="position:absolute;left:390px;top:17px;width:890px;height:53px;z-index:2;">
    <ul class="ui-widget" id="MegaMenu2">
       <li>

@@ -11,11 +11,11 @@ public class DatabaseConnection {
         try {
 
             Class.forName("com.mysql.jdbc.Driver");
-            con = DriverManager.getConnection("jdbc:mysql://node60184-env-1413262.unicloud.pl:3306/biblioteka", "root", "4iTwGYccD4");
+            con = DriverManager.getConnection("jdbc:mysql://node60184-env-1413262.unicloud.pl:3306/biblioteka", "root", "4iTwGYccD4"); //Są to dane uwierzytelniania do bazy danych która znajduje sie na hostingu UniCloud(Asseco Poland)
             return con;
 
           /*  Class.forName("com.mysql.jdbc.Driver");
-            con = DriverManager.getConnection("jdbc:mysql://localhost:3306/biblioteka?useSSL=false", "biblioteka", "biblioteka");
+            con = DriverManager.getConnection("jdbc:mysql://localhost:3306/biblioteka?useSSL=false", "biblioteka", "biblioteka"); 
             return con;*/
 
         } catch (Exception e) {
@@ -25,7 +25,7 @@ public class DatabaseConnection {
 
     }
 
-    public String a() {
+    public String probowka() {
 
         Connection sesja = connectDatabase();
         String wynik = "";
