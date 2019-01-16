@@ -347,10 +347,10 @@
                             <a href="./index.jsp" class="button ui-state-default ui-state-active">Moje filmy</a>
                         </li>
                         <li>
-                            <a href="./add.jsp" class="button ui-state-default">Dodaj film</a>
+                            <a href="./dodaj.jsp" class="button ui-state-default">Dodaj film</a>
                         </li>
                         <li>
-                            <a href="./register.jsp" class="button ui-state-default">Rejestracja</a>
+                            <a href="./rejestruj.jsp" class="button ui-state-default">Rejestracja</a>
                         </li>
 
                     </ul>

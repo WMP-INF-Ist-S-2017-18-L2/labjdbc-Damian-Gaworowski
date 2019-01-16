@@ -25,7 +25,7 @@ public class DatabaseConnection {
 
     }
 
-    public String probowka() {
+    public String a() {
 
         Connection sesja = connectDatabase();
         String wynik = "";

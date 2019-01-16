@@ -117,16 +117,16 @@ function ValidateForm1()
  
         String username = request.getParameter("login");
         String password = request.getParameter("haslo");
-        NewAccount newAccount = new NewAccount();
+        NoweKonto newAccount = new NoweKonto();
         
         int checkRegistration = newAccount.createAccount(username, password);
         if (checkRegistration == 1) {
             session.setAttribute("username", username);
             response.sendRedirect("./index.jsp");
         } else if (checkRegistration == 2) {
- out.print("<script> alert('Login jest już zajęty') </script>");
+ out.print("<script> alert('Login zajęty') </script>");
         } else {
-             out.print("<script> alert('Tworzenie konta nie powiodło się, spróbuj jeszcze raz') </script>");
+             out.print("<script> alert('Tworzenie konta nie powiodło się') </script>");
         }
     }
 %>   
@@ -162,7 +162,7 @@ function ValidateForm1()
       <a href="./index.jsp" class="button ui-state-default ui-state-active">Moje filmy</a>
       </li>
       <li>
-      <a href="./add.jsp" class="button ui-state-default">Dodaj film</a>
+      <a href="./dodaj.jsp" class="button ui-state-default">Dodaj film</a>
       </li>
       
       </li>
