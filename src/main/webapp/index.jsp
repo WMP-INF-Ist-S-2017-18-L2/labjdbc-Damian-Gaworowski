@@ -21,7 +21,7 @@
     if ((session.getAttribute("username") != null)) {
         uzytkownik = session.getAttribute("username").toString();
         link_tekst = "Wyloguj sie";
-        link_adres = "./logout.jsp";
+        link_adres = "./wyloguj.jsp";
     }
 %>
 
