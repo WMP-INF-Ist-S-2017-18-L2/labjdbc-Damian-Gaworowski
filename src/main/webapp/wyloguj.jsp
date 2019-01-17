@@ -1,6 +1,4 @@
 <%-- 
-    Document   : logout
-    Created on : 2018-04-22, 12:30:11
     Author     : HP
 --%>
 

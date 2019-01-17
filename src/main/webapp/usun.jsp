@@ -1,6 +1,4 @@
-<%-- 
-    Document   : delete
-    Created on : 2018-12-15, 20:27:59
+<%--
     Author     : HP
 --%>
 
