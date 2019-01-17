@@ -186,9 +186,9 @@ public class Film {
                 + "<div id=\"wb_Text39\" style=\"position:absolute;left:123px;top:150px;width:381px;height:16px;z-index:33;\">"
                 + "<span style=\"color:#646464;font-family:Arial;font-size:13px;\"><strong>Obejrzane:</strong></span><span style=\"color:#000000;font-family:Arial;font-size:13px;\"><strong> </strong></span><span style=\"color:#00AAF9;font-family:Arial;font-size:13px;\"><strong>" + obejrzane + "</strong></span></div>"
                 + "<div id=\"wb_Text40\" style=\"position:absolute;left:447px;top:1px;width:77px;height:16px;text-align:right;z-index:34;\">"
-                + "<span style=\"color:#646464;font-family:Arial;font-size:13px;\"><strong><a href=./edit.jsp?id=" + id + ">Edytuj</a></strong></span></div>"
+                + "<span style=\"color:#646464;font-family:Arial;font-size:13px;\"><strong><a href=./edytuj.jsp?id=" + id + ">Edytuj</a></strong></span></div>"
                 + "<div id=\"wb_Text41\" style=\"position:absolute;left:447px;top:31px;width:77px;height:16px;text-align:right;z-index:35;\">"
-                + "<span style=\"color:#646464;font-family:Arial;font-size:13px;\"><strong><a href=./delete.jsp?id=" + id + ">Usuń</a></strong></span></div>"
+                + "<span style=\"color:#646464;font-family:Arial;font-size:13px;\"><strong><a href=./usun.jsp?id=" + id + ">Usuń</a></strong></span></div>"
                 + "</div>";
 
         return wynik;

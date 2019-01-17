@@ -335,7 +335,7 @@
                 <div id="wb_Text3" style="position:absolute;left:196px;top:25px;width:250px;height:23px;z-index:22;">
                     <span style="color:#008BB9;font-family:'Trebuchet MS';font-size:17px;"><strong>Edycja filmu:</strong></span></div>
                 <div id="wb_Form1" style="position:absolute;left:35px;top:71px;width:514px;height:494px;z-index:23;">
-                    <form name="Form1" method="post" action="./edit.jsp" id="Form1" onsubmit="return ValidateForm1()">
+                    <form name="Form1" method="post" action="./edytuj.jsp" id="Form1" onsubmit="return ValidateForm1()">
                         <input type="hidden" name="formname" value="add" id="formname">
                         <select name="gatunek" size="1" id="gatunek" style="position:absolute;left:161px;top:305px;width:303px;height:35px;z-index:3;">
                             <option value="Fantastyka">Sci-Fi</option>
